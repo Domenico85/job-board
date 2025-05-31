@@ -37,3 +37,7 @@ header,
   border-radius: 20px;
   padding: 10px;
 }
+
+.logo {
+  background-color: transparent;
+}

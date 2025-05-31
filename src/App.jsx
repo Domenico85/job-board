@@ -389,6 +389,7 @@ const JobBoard = () => {
       <header className="">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
+               <img className='logo' src="/favicon.gif" alt="" />
             <div>
               <h1 className="text-2xl font-bold text-gray-900">JobBoard Pro</h1>
               <p className="text-gray-600">Find your dream job today</p>
