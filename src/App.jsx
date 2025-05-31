@@ -520,7 +520,7 @@ const JobBoard = () => {
             filteredJobs.map(job => (
               <div
                 key={job.id}
-                className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow cursor-pointer"
+                className="job-box cursor-pointer"
                 onClick={() => setSelectedJob(job)}
               >
                 <div className="flex justify-between items-start mb-4">
